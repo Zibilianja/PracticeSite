@@ -1,0 +1,214 @@
+/*CSS RESET - SCROLL DOWN*/
+
+* {
+  font-family: sans-serif;
+}
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+/*----------------------------------------------------------------------------------------------*/
+/*BEGINNING OF MY CSS AFTER RESET*/
+/*----------------------------------------------------------------------------------------------*/
+body {
+  background-color: rgb(255, 255, 255);
+}
+header {
+  background-color: rgb(228, 228, 228);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 45px;
+  text-align: center;
+  position: fixed;
+  margin-top: -95px;
+  margin-left: auto;
+}
+main {
+  margin-top: 100px;
+  text-align: center;
+  height: auto;
+}
+.nav-container {
+  align-items: center;
+  height: 65px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ul {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 50px;
+}
+li {
+  margin-right: 100px;
+  margin-top: -10px;
+  padding-top: 2px;
+  width: auto;
+  height: 33px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 10pt;
+}
+.title-banner {
+  height: 400px;
+  background-image: url("forest-image.jpeg");
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  padding-top: 85px;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-container {
+  background-color: rgba(255, 255, 255, 0.719);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 50px;
+  color: rgba(0, 0, 0, 0.781);
+}
+.welcome {
+  font-size: 24pt;
+}
+
+a,
+a:link {
+  text-decoration: none;
+  color: rgba(110, 110, 110, 0.637);
+}
+a:visited {
+}
+a:hover {
+  color: rgb(56, 80, 74);
+}
+
+.main-description {
+  width: 75%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  background-color: rgba(128, 128, 128, 0.123);
+  padding-top: 45px;
+  font-size: 16pt;
+}
+
+.description {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 31pt;
+}
+.buttons {
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: auto;
+  align-items: center;
+  display: inline-flex;
+}
+.button-label {
+  background-color: rgba(255, 255, 255, 0.767);
+  height: 15%;
+  width: 100%;
+  padding-top: 20px;
+}
+button {
+  height: 400px;
+  width: 400px;
+  margin-left: 23px;
+  margin-right: 23px;
+  margin-bottom: 200px;
+}
+.button-1 {
+  background-image: url(forest-image.jpeg);
+}
+.button-2 {
+  background-image: url(forest-image.jpeg);
+}
+.button-3 {
+  background-image: url(forest-image.jpeg);
+}
