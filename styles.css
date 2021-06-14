@@ -128,7 +128,7 @@ li {
   font-size: 10pt;
 }
 .title-banner {
-  height: 400px;
+  height: 600px;
   background-image: url("forest-image.jpeg");
   background-size: 80%;
   background-repeat: no-repeat;
@@ -146,7 +146,7 @@ li {
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-top: 50px;
+  margin-top: 100px;
   color: rgba(0, 0, 0, 0.781);
 }
 .welcome {
@@ -156,7 +156,7 @@ li {
 a,
 a:link {
   text-decoration: none;
-  color: rgba(110, 110, 110, 0.637);
+  color: rgba(110, 110, 110, 0.788);
 }
 a:visited {
 }
@@ -189,26 +189,45 @@ a:hover {
   width: auto;
   align-items: center;
   display: inline-flex;
+  background-color: rgba(128, 128, 128, 0.123);
+  margin-bottom: 300px;
+  border: solid 1pt black;
+  border-radius: 15px;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 .button-label {
-  background-color: rgba(255, 255, 255, 0.767);
+  background-color: rgb(255, 255, 255);
   height: 15%;
-  width: 100%;
-  padding-top: 20px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border: solid 1pt black;
+  border-radius: 8px;
 }
 button {
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   margin-left: 23px;
   margin-right: 23px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: solid 1pt black;
+  border-radius: 15px;
 }
 .button-1 {
-  background-image: url(forest-image.jpeg);
+  background-image: url(japanese-maple-tree.jpeg);
+  background-position-y: -500px;
+  background-position-x: -100px;
 }
 .button-2 {
-  background-image: url(forest-image.jpeg);
+  background-image: url(japanese-maple-tree.jpeg);
+  background-position-y: -500px;
+  background-position-x: -600px;
 }
 .button-3 {
-  background-image: url(forest-image.jpeg);
+  background-image: url(japanese-maple-tree.jpeg);
+  background-position-y: -500px;
+  background-position-x: -1030px;
 }
