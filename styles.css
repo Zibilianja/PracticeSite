@@ -85,10 +85,10 @@ select {
 /*BEGINNING OF MY CSS AFTER RESET*/
 /*----------------------------------------------------------------------------------------------*/
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(179, 252, 155, 0.219);
 }
 header {
-  background-color: rgb(228, 228, 228);
+  background-color: rgba(186, 218, 175, 0.918);
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -105,17 +105,18 @@ main {
 }
 .nav-container {
   align-items: center;
-  height: 65px;
+  height: 35px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 12px;
 }
-ul {
+.navlist {
   list-style: none;
   display: inline-flex;
   margin-left: 50px;
 }
-li {
+.navlink {
   margin-right: 100px;
   margin-top: -10px;
   padding-top: 2px;
@@ -140,8 +141,8 @@ li {
   margin-right: auto;
 }
 .title-container {
-  background-color: rgba(255, 255, 255, 0.719);
-  width: 100%;
+  background-color: rgba(186, 218, 175, 0.678);
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 25px;
@@ -151,6 +152,17 @@ li {
 }
 .welcome {
   font-size: 24pt;
+}
+.insta {
+  float: right;
+  display: flex;
+  height: 45px;
+  width: 45px;
+  border-radius: 2px;
+  border-color: transparent;
+  background-color: transparent;
+  margin-top: -42px;
+  margin-right: 55px;
 }
 
 a,
@@ -163,6 +175,18 @@ a:visited {
 a:hover {
   color: rgb(56, 80, 74);
 }
+.specializations {
+  margin-top: 75px;
+  font-size: 16pt;
+  background-color: rgba(186, 218, 175, 0.678);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 0px 35px 0px;
+}
+.specializations-list {
+  list-style: none;
+}
 
 .main-description {
   width: 75%;
@@ -170,7 +194,7 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 75px;
-  background-color: rgba(128, 128, 128, 0.123);
+  background-color: rgba(186, 218, 175, 0.678);
   padding-top: 45px;
   font-size: 16pt;
 }
@@ -186,18 +210,18 @@ a:hover {
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  width: auto;
+  width: 85%;
   align-items: center;
   display: inline-flex;
-  background-color: rgba(128, 128, 128, 0.123);
-  margin-bottom: 300px;
+  background-color: rgba(186, 218, 175, 0.678);
+  margin-bottom: 150px;
   border: solid 1pt black;
   border-radius: 15px;
   padding-left: 20vh;
   padding-right: 20vh;
 }
 .button-label {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(186, 218, 175, 0.87);
   height: 15%;
   width: 75%;
   margin-left: auto;
@@ -208,7 +232,7 @@ a:hover {
 }
 button {
   height: 300px;
-  width: 300px;
+  width: 400px;
   margin-left: 23px;
   margin-right: 23px;
   margin-bottom: 50px;
@@ -217,17 +241,29 @@ button {
   border-radius: 15px;
 }
 .button-1 {
-  background-image: url(japanese-maple-tree.jpeg);
-  background-position-y: -500px;
-  background-position-x: -100px;
+  background-image: url(germinating-seeds-in-soil.jpeg);
+  background-size: 200%;
+  background-position-x: 50%;
 }
 .button-2 {
-  background-image: url(japanese-maple-tree.jpeg);
-  background-position-y: -500px;
-  background-position-x: -600px;
+  background-image: url(plant1.jpeg);
+  background-size: 200%;
 }
 .button-3 {
-  background-image: url(japanese-maple-tree.jpeg);
-  background-position-y: -500px;
-  background-position-x: -1030px;
+  background-image: url(tree.jpeg);
+  background-size: 135%;
+}
+section {
+  border-radius: 15px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(186, 218, 175, 0.678);
+  width: 100%;
+  padding-bottom: 150px;
+  padding-top: 36px;
+}
+.crisis {
+  font-size: 18pt;
 }
