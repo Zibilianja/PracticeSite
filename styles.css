@@ -87,6 +87,7 @@ select {
 body {
   background-color: rgba(179, 252, 155, 0.219);
 }
+
 header {
   background-color: rgba(186, 218, 175, 0.918);
   width: 100%;
@@ -267,3 +268,70 @@ footer {
 .crisis {
   font-size: 18pt;
 }
+/*-----------------------------------------------------------------------------------------------*/
+/*Scheduling page CSS*/
+
+.two-column-container {
+  height: 1000px;
+  width: 75%;
+  column-count: 2;
+  column-gap: 75px;
+  padding-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-column-container {
+  display: block;
+  background-color: rgba(186, 218, 175, 0.918);
+  height: 700px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.right-column-container {
+  display: block;
+  background-color: rgba(186, 218, 175, 0.918);
+  height: 700px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 15px;
+}
+
+.left-column {
+}
+
+.right-column {
+}
+.input-header {
+  margin-top: 16px;
+  width: 100%;
+}
+#email-input {
+  width: 80%;
+  margin-top: 5px;
+  text-align: left;
+}
+#message-input {
+  width: 80%;
+  height: 270px;
+  margin-top: 5px;
+}
+
+#message-input::placeholder {
+}
+.input-submit {
+  height: 36px;
+  width: 100px;
+  border-radius: 5px;
+}
+/*-----------------------------------------------------------------------------------------------*/
+/*About page CSS*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*Therapy page CSS*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*FAQ page CSS*/
