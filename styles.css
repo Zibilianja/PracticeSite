@@ -340,11 +340,13 @@ footer {
 /*Mobile Optimization*/
 @media only screen and (max-width: 768px) {
   body {
+    text-align: center;
     width: 100%;
     font-size: 14pt;
+    background-color: black;
   }
   header {
-    width: 100%;
+    width: 100vh;
   }
   main {
     width: 80%;
