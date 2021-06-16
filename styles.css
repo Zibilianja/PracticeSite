@@ -260,7 +260,7 @@ section {
 
 footer {
   text-align: center;
-  background-color: rgba(186, 218, 175, 0.678);
+  background-color: rgba(186, 218, 175, 0.767);
   width: 100%;
   padding-bottom: 150px;
   padding-top: 36px;
@@ -270,7 +270,11 @@ footer {
 }
 /*-----------------------------------------------------------------------------------------------*/
 /*Scheduling page CSS*/
-
+.schedule-page {
+  background-image: url(forest-image.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 .two-column-container {
   height: 1000px;
   width: 75%;
@@ -301,6 +305,8 @@ footer {
 }
 
 .left-column {
+  line-height: 20pt;
+  padding: 5px;
 }
 
 .right-column {
@@ -327,12 +333,99 @@ footer {
   width: 100px;
   border-radius: 5px;
 }
+hr {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  border: solid 1pt black;
+}
+.other-hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 /*-----------------------------------------------------------------------------------------------*/
 /*About page CSS*/
-
+.about-body {
+  background-image: url(forest-image.jpeg);
+  background-attachment: fixed;
+}
+.about-main {
+  columns: 2;
+  margin-bottom: 100px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  column-gap: 25px;
+}
+.about-left {
+  background-color: rgba(186, 218, 175, 0.9);
+  border-radius: 15px;
+  height: 1250px;
+  padding: 30px;
+  line-height: 23pt;
+  text-align: left;
+  text-indent: 25pt;
+}
+.left-headings {
+  text-align: center;
+  text-indent: 0px;
+}
+.about-right {
+  background-color: rgba(186, 218, 175, 0.9);
+  border-radius: 15px;
+  height: 1250px;
+  padding-top: 50px;
+}
+.jon-image {
+  height: auto;
+  width: 75%;
+  border-radius: 15px;
+  margin-left: 12.5%;
+}
+.right-column-about {
+  margin-top: 100px;
+  font-family: cursive;
+}
 /*-----------------------------------------------------------------------------------------------*/
 /*Therapy page CSS*/
-
+.therapy-main {
+  column-count: 2;
+  column-gap: 35px;
+  margin-bottom: 100px;
+}
+.left-column-therapy {
+  height: 1000px;
+  width: 75%;
+  margin-left: auto;
+  line-height: 30pt;
+  text-align: left;
+  text-indent: 30pt;
+  padding: 0px 15px 0px 25px;
+}
+.therapy-heading {
+  text-align: center;
+  text-indent: 0px;
+  text-decoration: underline;
+  padding-top: 15px;
+  padding-bottom: 25px;
+}
+.right-column-therapy {
+  height: 1000px;
+  width: 75%;
+  margin-right: auto;
+  padding-top: 25px;
+}
+.quote-therapy {
+  font-family: cursive;
+  font-size: 22pt;
+  padding-top: 30px;
+}
+.bridge-image {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
 /*-----------------------------------------------------------------------------------------------*/
 /*FAQ page CSS*/
 

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="schedule-page">
     <header>
       <!--Navigation-->
       <nav class="nav-container">
@@ -29,10 +29,11 @@
         /></a>
       </button>
     </header>
-    <main class="schedule-page">
+    <main class="schedule-page-main">
       <div class="two-column-container">
         <section class="left-column-container">
           <h2 class="left-column"><u>Schedule a session</u></h2>
+          <br>
           <p class="left-column">
             If you would like to schedule a session or a consultation, please
             give me a call at:
@@ -42,25 +43,35 @@
             Since the start of the pandemic, all of my sessions are conducted
             remotely via Phone and Video Sessions
           </p>
+          <hr>
+          <p class="left-column">I know it can feel intimidating, vulnerable and just in general anxiety inducing to reach out to a therapist. If you want, I offer a free 15 minute consultation and interview in order to see if we are a good fit. More imporant than seeking help from a therapist, is making sure they are right for you. The number one predictor of success in therapy is a client's willingness to engage, closely followed by the relationship between client and therapist. In other words, if you are really dedicated to changing, most therapists should work for you, but if you are like the majority of people, it can be challenging to engage all the time and so the relationship and trust between you and your therapist is of the utmost importance.</p>
         </section>
-        <form class="right-column-container" action="mailto: allgrowcounseling@gmail.com">
+        <form class="right-column-container" action="">
           <h2 class="right-column"><u>Or by email:</u></h2>
           <div class="inputs">
-            <h4 class="input-header">Please enter your email:</h4>
+            <h4 class="input-header">Please enter your name:</h4>
             <input
               type="email"
               class="right-column"
               id="email-input"
-              placeholder="Enter Email Address"
+              placeholder="First and Last name:"
             />
             <br />
             <h4 class="input-header">Enter a message with your preferred contact method and availability:</h3>
-            <textarea id="message-input" class="right-column" placeholder="Enter your message here"></textarea>
-            <button type="submit" class="input-submit">Submit</button>
+            <textarea id="message-input" class="right-column" name="message-submission"placeholder="Enter your message here"></textarea>
+            <br>
+            <input type="submit" class="input-submit">
           </div>
         </form>
       </div>
     </main>
+    <footer>
+      <h1>*If you are in crisis or emergency* </h1>
+      <hr class="other-hr">
+      <p class="crisis">please, dial 911.</p>
+      <p class="crisis">Also consider Denver Metro Crisis Services for crisis that is not immediately life threatening. 1-844-439-TALK (8255)</p>
+      <a href="http://www.metrocrisisservices.org" class="crisis" target="_blank">Metro Crisis Website</a>
+    </footer>
     <script src="" async defer></script>
   </body>
 </html>
